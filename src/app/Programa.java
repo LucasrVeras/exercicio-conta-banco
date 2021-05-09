@@ -20,7 +20,7 @@ public class Programa {
 		sc.nextLine();
 		String nome = sc.nextLine();
 		
-		System.out.print("Deseja colocar algum valor na conta: ");
+		System.out.print("Deseja colocar algum valor na conta s/n: ");
 		char resposta = sc.next().charAt(0);
 		
 		Conta conta = new Conta(numeroConta, nome);
